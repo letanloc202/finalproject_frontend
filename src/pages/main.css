@@ -1,0 +1,82 @@
+.page-container {
+    display: grid;
+    color: azure;
+    grid-template-columns: 30% 45% 30%; 
+    grid-row: 100%;
+    gap: 0.5px; 
+    height: 100vh;
+  }
+  
+.frame {
+  top: 0;
+  height: 100%;
+  border: 1px solid #ccc;
+  background-color: black;
+  color: azure;
+  height: 100%;
+}
+
+.frame.mid h5 {
+  color: white; 
+  font-size: 18px;
+  /* top: 1; */
+  padding-left: 10px;
+  width: 10px;
+  height: 2%;
+}
+
+.btn{
+  width: 50%;
+  height: 100%;
+  /* border-radius: 10px; */
+  border: 1px solid white;
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.leftbutton{
+  height: 70%;
+  margin-left: 50%;
+  margin-right: 10%;
+  margin-top: 5%;
+  display: grid;
+}
+
+.leftbtn{
+  margin-bottom: 1%;
+  height:100%;
+  width: max-content;
+  font-size: large;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: black;
+  color: #ccc;
+}
+
+.leftbtn:hover{
+  background-color: rgb(59, 59, 60);
+}
+
+.leftbtn.post{
+  background-color: blue;
+  width: 100%;
+}
+
+.two_btn{
+  height: 5%;
+  display: flex;
+}
+
+.daidien{
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  border: none;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+}
